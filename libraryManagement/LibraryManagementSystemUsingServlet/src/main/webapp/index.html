@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library Management Portal</title>
+<style>
+/* Applying background image to the whole page */
+body {
+	background-image:
+		url('https://marketplace.canva.com/EAFm9cdFi94/2/0/1600w/canva-bright-cartoon-green-and-brown-school-books-pattern-desktop-wallpaper-4Iwc1WA2mcM.jpg');
+	/* Replace with your image file path */
+	background-size: cover; /* Ensure the image covers the entire screen */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Prevent image repetition */
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Style for header */
+.header {
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	/* Light transparent background */
+}
+
+/* Container to center the login box */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+/* Styling for login box */
+.login-box {
+	background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+	padding: 30px; /* Increased padding */
+	border-radius: 15px; /* More rounded corners */
+	text-align: center;
+	width: 350px; /* Increased width */
+	height: 250px; /* Increased height */
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+/* Button styling */
+.btn {
+	padding: 12px 25px; /* Increased button size */
+	font-size: 18px; /* Larger text */
+	margin: 15px; /* Increased spacing */
+	border: none;
+	cursor: pointer;
+	background-color: #007BFF;
+	color: white;
+	border-radius: 8px;
+	width: 80%; /* Making button width responsive */
+	transition: background 0.3s;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+	<h1 style="text-align: center">Library Management Portal</h1>
+	<div class="container">
+		<div class="login-box">
+			<h2>Welcome</h2>
+			<p>Please choose your login type:</p>
+			<div class="button-group">
+				<a href="AdminLoginpage.html">
+					<button class="btn">Admin Login</button>
+				</a> <a href="StudentLoginfor.html">
+					<button class="btn">Librarian Login</button>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
